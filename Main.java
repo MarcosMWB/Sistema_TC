@@ -19,17 +19,4 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         launch(args);
-
-        class Cliente{
-            String nome;
-            long tel;
-            float saldo;
-        }
-        class pedido{
-            
-        }
-
-        private void registrarCliente()
-
-    }
 }
