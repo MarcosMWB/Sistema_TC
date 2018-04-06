@@ -5,9 +5,11 @@ import android.os.Bundle;
 
 public class Main extends AppCompatActivity {
 
-    float small = 10;
-    float big = 12;
-    float total = 0;
+    float static small = 10;
+    float static big = 12;
+    float static total = 0;
+    float static cost = 0;
+    float static profit = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,5 +25,9 @@ public class Main extends AppCompatActivity {
             this.total += big;
         }
     }
+    
+    public void calculateProfit(float cost, float total){
+            profit = total - cost;
+        }
 
 }
